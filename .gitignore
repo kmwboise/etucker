@@ -1,0 +1,16 @@
+node_modules/
+_placeholder-site/
+_website-elements/
+gulpfile.js
+npm.save
+*.json
+*.lock
+scss/
+vendor/**/*.css
+vendor/**/*.less
+vendor/gregwar
+*.yml
+*.map
+*.md
+
+
