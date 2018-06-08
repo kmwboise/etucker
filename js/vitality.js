@@ -75,31 +75,21 @@ $(document).ready(function() {
   });
 
   // Owl Carousel Settings
-  $(".team-carousel").owlCarousel({
-    items: 3,
-    navigation: true,
-    pagination: false,
-    navigationText: [
-      "<i class='fa fa-angle-left'></i>",
-      "<i class='fa fa-angle-right'></i>"
-    ],
-  });
 
-  $(".portfolio-carousel").owlCarousel({
+    
+
+  $(".services-carousel").owlCarousel({
     singleItem: true,
-    navigation: true,
+    navigation: false,
     pagination: false,
-    navigationText: [
-      "<i class='fa fa-angle-left'></i>",
-      "<i class='fa fa-angle-right'></i>"
-    ],
+    autoPlay:true,
     autoHeight: true,
     mouseDrag: false,
     touchDrag: false,
     transitionStyle: "fadeUp"
   });
 
-  $(".testimonials-carousel, .mockup-carousel").owlCarousel({
+  $(".testimonials-carousel").owlCarousel({
     singleItem: true,
     navigation: true,
     pagination: true,
@@ -110,11 +100,6 @@ $(document).ready(function() {
     ],
     transitionStyle: "backSlide"
   });
-
-  $(".portfolio-gallery").owlCarousel({
-    items: 3,
-  });
-
 
 
   // Vide - Video Background Settings
