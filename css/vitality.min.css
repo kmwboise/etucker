@@ -16,15 +16,19 @@ hr.colored {
     max-width: 150px; } }
 
 section.page-section {
-  padding: 100px 0; }
+  padding-top: 100px; }
   .not-transparent section.page-section {
-    padding: 200px 0; }
+    padding-top: 150px; }
+    .not-transparent section.page-section.pricing {
+      padding-bottom: 150px; }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   section.page-section {
-    padding: 75px 0; }
+    padding-top: 75px; }
     .not-transparent section.page-section {
-      padding: 100px 0; } }
+      padding-top: 70px; }
+      .not-transparent section.page-section.pricing {
+        padding: 100px 0 70px; } }
 
 .input-group-addon {
   padding: 7px 12px;
@@ -43,6 +47,9 @@ section.page-section {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   border-left: 0; }
+
+.text-shadow {
+  text-shadow: 1px 1px 1px #000; }
 
 ::-webkit-input-placeholder {
   font-weight: 300;
@@ -185,8 +192,8 @@ header.masthead {
     max-width: 150px;
     max-height: 150px; }
   header.masthead .masthead-title {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 3rem;
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 900;
     text-transform: uppercase; }
@@ -317,8 +324,10 @@ header.video .scroll-down {
         line-height: 42px; } }
 
 .services .c-services {
-  background: url("../img/agency/backgrounds/18.jpg") no-repeat center center;
-  background-size: cover; }
+  background: url("../img/agency/backgrounds/capitol.jpg") no-repeat center 86%;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
 
 .services .media {
   margin-bottom: 30px; }
@@ -343,6 +352,10 @@ header.video .scroll-down {
 @media (min-width: 992px) {
   .services .media {
     margin-bottom: 0; } }
+
+.services-carousel {
+  background-image: url("/img/agency/backgrounds/grove-plaza.jpg");
+  background-position: center 90%; }
 
 .services-carousel {
   padding: 0;
@@ -411,6 +424,8 @@ header.video .scroll-down {
 .pricing {
   color: white;
   background-color: #222;
+  background-image: url("/img/agency/backgrounds/listing-background.jpg");
+  background-position: top center;
   background-size: cover;
   background-attachment: scroll; }
   @media (min-width: 1024px) {
@@ -519,10 +534,11 @@ form .row:first-child .floating-label-form-group {
 
 footer.footer {
   padding: 50px 0 20px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   background-size: cover;
   background-attachment: scroll;
-  background-color: #222; }
+  background-color: #222;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); }
   @media (min-width: 1024px) {
     footer.footer {
       background-attachment: fixed; } }
@@ -530,13 +546,14 @@ footer.footer {
     footer.footer {
       background-attachment: scroll; } }
   footer.footer a {
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgba(255, 255, 255, 0.9); }
     footer.footer a:hover {
       color: white; }
   footer.footer p {
     font-size: 22px; }
-  footer.footer .footer-contact-details {
-    margin: 75px 0; }
+  @media (min-width: 768px) {
+    footer.footer .footer-contact-details {
+      margin: 75px 0; } }
   footer.footer .footer-social {
     margin-bottom: 75px; }
   footer.footer .copyright {
@@ -648,6 +665,14 @@ a.text-primary {
     border-color: #909f54;
     color: white; }
 
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 2rem; }
+  h3 {
+    font-size: 2.5rem; }
+  h3 {
+    font-size: 1rem; } }
+
 .owl-carousel.owl-theme .owl-controls {
   margin-top: 0; }
   .owl-carousel.owl-theme .owl-controls .owl-prev,
@@ -664,7 +689,8 @@ a.text-primary {
     color: white !important;
     border-radius: 0 !important;
     background-color: #909f54 !important;
-    transition: all 0.5s; }
+    transition: all 0.5s;
+    display: none; }
     .owl-carousel.owl-theme .owl-controls .owl-prev:hover,
     .owl-carousel.owl-theme .owl-controls .owl-next:hover {
       opacity: 1; }
@@ -672,6 +698,10 @@ a.text-primary {
       .owl-carousel.owl-theme .owl-controls .owl-prev,
       .owl-carousel.owl-theme .owl-controls .owl-next {
         top: -40%; } }
+    @media (min-width: 768px) {
+      .owl-carousel.owl-theme .owl-controls .owl-prev,
+      .owl-carousel.owl-theme .owl-controls .owl-next {
+        display: block; } }
   .owl-carousel.owl-theme .owl-controls .owl-prev {
     left: 15px; }
   .owl-carousel.owl-theme .owl-controls .owl-next {
