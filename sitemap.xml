@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    <url>
+        <loc>http://www.etucker.net/</loc>
+        <image:image>
+            <image:loc>http://etucker.net/img/agency/team/dianne-tucker-cromwell.jpg</image:loc>
+            <image:caption>DIANNE E. TUCKER CROMWELL</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://etucker.net/img/agency/team/david-cromwell.jpg</image:loc>
+            <image:caption>DAVID B. CROMWELL, CLVS</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://etucker.net/img/agency/team/annie-cromwell.jpg</image:loc>
+            <image:caption>ANNIE CROMWELL</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://etucker.net/img/agency/team/brooke-bohr.jpg</image:loc>
+            <image:caption>BROOKE R. BOHR</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>http://www.etucker.net/element.html</loc>
+    </url>
+    <url>
+        <loc>http://www.etucker.net/directory.html</loc>
+    </url>
+    <url>
+        <loc>http://www.etucker.net/listing.html</loc>
+    </url>
+</urlset>
