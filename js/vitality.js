@@ -103,15 +103,17 @@ $(document).ready(function() {
 
 
   // Vide - Video Background Settings
-  $('header.video').vide({
-    mp4: "mp4/Morning-Routine.mp4",
-    poster: "img/agency/backgrounds/Morning-Routine.jpg"
-  }, {
-    posterType: 'jpg'
-  });
+  //$('header.video').vide({
+    //mp4: "mp4/Morning-Routine.mp4",
+    //poster: "img/agency/backgrounds/Morning-Routine.jpg"
+  //}, {
+    //posterType: 'jpg'
+  //});
     
     
     //date picker
     $('.datepicker').datepicker();
+    
+
 
 })(jQuery); // End of use strict
