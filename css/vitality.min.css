@@ -229,15 +229,17 @@ header.masthead {
       min-height: 700px;
       padding-top: 0;
       padding-bottom: 0; }
+      header.masthead .col-12 {
+        bottom: 15%; }
       header.masthead .masthead-img {
-        max-width: 500px;
-        max-height: 500px; }
+        max-width: 300px;
+        max-height: 300px; }
       header.masthead .masthead-title {
-        font-size: 5rem;
-        line-height: 5rem; }
+        font-size: 3rem;
+        line-height: 3rem; }
       header.masthead .masthead-subtitle {
-        font-size: 2rem;
-        line-height: 2.5rem; } }
+        font-size: 1.5rem;
+        line-height: 2rem; } }
 
 header.video .overlay {
   position: absolute;
@@ -259,6 +261,22 @@ header.video .scroll-down {
     background: transparent; }
     header.video .overlay {
       opacity: 0.2; } }
+
+.c-deposition {
+  background-color: #222;
+  background-image: url("../img/global/capitol.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: scroll; }
+  @media (min-width: 1024px) {
+    .c-deposition {
+      background-attachment: fixed; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .c-deposition {
+      background-attachment: scroll; } }
+  .c-deposition .container {
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 20px 3px rgba(34, 34, 34, 0.2); }
 
 .team-carousel .item {
   position: relative; }
@@ -323,47 +341,47 @@ header.video .scroll-down {
         font-size: 40px;
         line-height: 42px; } }
 
-.services {
-  padding-bottom: 100px; }
-  .services .c-services {
-    background: linear-gradient(rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0.3)), url("../img/agency/backgrounds/main-street.jpg");
-    background-position: center 79%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 5rem;
-    padding-bottom: 5rem; }
-  .services .media {
-    margin-bottom: 30px; }
-    .services .media i.fa {
-      font-size: 30px;
-      line-height: 70px;
-      width: 75px;
-      height: 75px;
-      text-align: center;
-      border: 3px solid #222; }
-    .services .media .media-body {
-      min-width: none;
-      padding-left: 15px; }
-      .services .media .media-body h3 {
-        margin-bottom: 15px; }
-      .services .media .media-body ul {
-        padding: 0;
-        list-style: inside; }
-        .services .media .media-body ul li {
-          margin-bottom: 10px; }
+.services .c-services {
+  background: linear-gradient(rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0.3)), url("../img/agency/backgrounds/main-street.jpg");
+  background-position: center 79%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.services .media {
+  margin-bottom: 30px; }
+  .services .media i.fa {
+    font-size: 30px;
+    line-height: 70px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border: 3px solid #222; }
+  .services .media .media-body {
+    min-width: none;
+    padding-left: 15px; }
+    .services .media .media-body h3 {
+      margin-bottom: 15px; }
+    .services .media .media-body ul {
+      padding: 0;
+      list-style: inside; }
+      .services .media .media-body ul li {
+        margin-bottom: 10px; }
+
+.services .element {
+  background-color: #222; }
 
 @media (min-width: 992px) {
   .services .media {
     margin-bottom: 0; } }
 
 .services-carousel {
-  background: linear-gradient(rgba(45, 67, 123, 0.2), rgba(34, 34, 34, 0.2)), url("../img/agency/backgrounds/grove-plaza.jpg");
-  background-position: center 90%; }
-
-.services-carousel {
   padding: 0;
   color: white;
-  background-size: cover; }
+  background-size: cover;
+  background: linear-gradient(rgba(45, 67, 123, 0.2), rgba(34, 34, 34, 0.2)), url("../img/agency/backgrounds/grove-plaza.jpg");
+  background-position: center 90%; }
   .services-carousel .item {
     padding: 75px 30px;
     text-align: center;
@@ -373,9 +391,7 @@ header.video .scroll-down {
       line-height: 40px;
       display: block;
       margin-bottom: 6px;
-      font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-weight: 900;
-      text-transform: uppercase; }
+      font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     .services-carousel .item .project-details .project-description {
       font-size: 18px;
       line-height: 18px;
@@ -424,6 +440,22 @@ header.video .scroll-down {
     .testimonials .testimonials-carousel .item {
       padding: 0 100px; } }
 
+.directory {
+  background-color: #222;
+  background-image: url("../img/agency/backgrounds/capitol10.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: scroll; }
+  @media (min-width: 1024px) {
+    .directory {
+      background-attachment: fixed; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .directory {
+      background-attachment: scroll; } }
+  .directory .container {
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 20px 3px rgba(34, 34, 34, 0.2); }
+
 .pricing {
   color: white;
   background-color: #222;
@@ -443,8 +475,8 @@ header.video .scroll-down {
     padding: 30px;
     text-align: center;
     color: #222;
-    background: white;
-    box-shadow: 0 0 30px 5px rgba(34, 34, 34, 0.75); }
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 20px 3px rgba(34, 34, 34, 0.2); }
     .pricing .pricing-item h3 {
       margin: 0; }
     .pricing .pricing-item hr {
@@ -551,7 +583,7 @@ footer.footer {
       background-attachment: scroll; } }
   @media (min-width: 992px) {
     footer.footer {
-      background-position: 50% 260px; } }
+      background-position: 50% 160px; } }
   footer.footer .overlay {
     background-color: rgba(34, 34, 34, 0.5);
     position: absolute;
