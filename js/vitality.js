@@ -94,6 +94,9 @@ $(document).ready(function() {
     navigation: true,
     pagination: true,
     autoHeight: true,
+    autoPlay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
     navigationText: [
       "<i class='fa fa-angle-left'></i>",
       "<i class='fa fa-angle-right'></i>"
