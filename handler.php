@@ -25,7 +25,7 @@ $pp->requireReCaptcha();
 $pp->getReCaptcha()->initSecretKey('6LdHMF0UAAAAAJOWbnIEdIpJt01jNSZcvzl5yl7U');
 
 
-$pp->sendEmailTo('k.williams80@gmail.com'); // ← Your email here
+$pp->sendEmailTo('notice@etucker.net'); // ← Your email here
 
 $mailer = $pp->getMailer();
 $mailer->setFrom('notice@etucker.net','Form Submission from eTucker.net',false);
