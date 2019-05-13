@@ -1,6 +1,6 @@
 /*!
  * Vitality v2.1.0 (http://themes.startbootstrap.com/vitality-v2.1.0)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Purchase a license to use this theme at (https://wrapbootstrap.com)
  */
 /*!
